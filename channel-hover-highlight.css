@@ -1,9 +1,11 @@
-[aria-label="Channels"] [class^="content"]{
+[aria-label="Channels"] [class^="content"],
+[class^="popout-"] [class^="row-"] {
     border-style: dashed;
     border-width:1px;  
     border-color: transparent;
 }
 
-[aria-label="Channels"] [class^="content"]:hover{
+[aria-label="Channels"] [class^="content"]:hover,
+[class^="popout-"] [class^="row-"]:hover {
     border-color: #b00b69;
 }
