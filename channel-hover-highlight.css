@@ -1,3 +1,8 @@
+[class^="popout-"] [class^="row-"] {
+    /* removes the blue background when hovering over a thread */
+    background-color: transparent;
+}
+
 [aria-label="Channels"] [class^="content"],
 [class^="popout-"] [class^="row-"] {
     border-style: dashed;
