@@ -1,0 +1,137 @@
+/*
+* Modified version of: https://discord.com/channels/1015060230222131221/1028106818368589824/1110091028960124999
+*/
+
+/* Collapse setting categories */
+
+/* User Settings */
+.header-2F5_LB + [aria-label="My Account"],
+.header-2F5_LB + [aria-label="My Account"] + div,
+.header-2F5_LB + [aria-label="My Account"] + div + div,
+.header-2F5_LB + [aria-label="My Account"] + div + div + div,
+.header-2F5_LB + [aria-label="My Account"] + div + div + div + div,
+.header-2F5_LB + [aria-label="My Account"] + div + div + div + div + div,
+.header-2F5_LB + [aria-label="My Account"] + div + div + div + div + div + div {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: max-height 0.5s 2s, padding 0.5s 2s, margin-bottom 0.5s 2s;
+    margin-bottom: 0;
+    
+}
+.header-2F5_LB:hover + [aria-label="My Account"],
+.header-2F5_LB:hover + [aria-label="My Account"] + div,
+.header-2F5_LB:hover + [aria-label="My Account"] + div + div,
+.header-2F5_LB:hover + [aria-label="My Account"] + div + div + div,
+.header-2F5_LB:hover + [aria-label="My Account"] + div + div + div + div,
+.header-2F5_LB + [aria-label="My Account"]:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="My Account"] + div:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="My Account"] + div + div:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="My Account"] + div + div + div:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="My Account"]+ div + div + div + div:is(:hover, [aria-selected="true"])
+{
+    transition: max-height 0.5s, padding 0.5s, margin-bottom 0.5s;
+    margin-bottom: 2px;
+    overflow: visible;
+    max-height: 32px;
+    padding: 6px 10px;
+}
+
+/* Billing Settings */
+.header-2F5_LB + [aria-label="Nitro"],
+.header-2F5_LB + [aria-label="Nitro"] + div,
+.header-2F5_LB + [aria-label="Nitro"] + div + div,
+.header-2F5_LB + [aria-label="Nitro"] + div + div + div,
+.header-2F5_LB + [aria-label="Nitro"] + div + div + div + div {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: max-height 0.5s 2s, padding 0.5s 2s, margin-bottom 0.5s 2s;
+    margin-bottom: 0;
+    
+}
+.header-2F5_LB:hover + [aria-label="Nitro"],
+.header-2F5_LB:hover + [aria-label="Nitro"] + div,
+.header-2F5_LB:hover + [aria-label="Nitro"] + div + div,
+.header-2F5_LB:hover + [aria-label="Nitro"] + div + div + div,
+.header-2F5_LB:hover + [aria-label="Nitro"] + div + div + div + div,
+.header-2F5_LB + [aria-label="Nitro"]:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="Nitro"] + div:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="Nitro"] + div + div:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="Nitro"] + div + div + div:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="Nitro"]+ div + div + div + div:is(:hover, [aria-selected="true"])
+{
+    transition: max-height 0.5s, padding 0.5s, margin-bottom 0.5s;
+    margin-bottom: 2px;
+    overflow: visible;
+    max-height: 32px;
+    padding: 6px 10px;
+}
+
+/* App settings */
+
+.header-2F5_LB + [aria-label="Appearance"],
+.header-2F5_LB + [aria-label="Appearance"] + div,
+.header-2F5_LB + [aria-label="Appearance"] + div + div,
+.header-2F5_LB + [aria-label="Appearance"] + div + div + div,
+.header-2F5_LB + [aria-label="Appearance"] + div + div + div + div,
+.header-2F5_LB + [aria-label="Appearance"] + div + div + div + div + div,
+.header-2F5_LB + [aria-label="Appearance"] + div + div + div + div + div + div,
+.header-2F5_LB + [aria-label="Appearance"] + div + div + div + div + div + div + div,
+.header-2F5_LB + [aria-label="Appearance"] + div + div + div + div + div + div + div + div,
+.header-2F5_LB + [aria-label="Appearance"] + div + div + div + div + div + div + div + div + div {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: max-height 0.5s 2s, padding 0.5s 2s, margin-bottom 0.5s 2s;
+    margin-bottom: 0;
+    
+}
+.header-2F5_LB:hover + [aria-label="Appearance"],
+.header-2F5_LB:hover + [aria-label="Appearance"] + div,
+.header-2F5_LB:hover + [aria-label="Appearance"] + div + div,
+.header-2F5_LB:hover + [aria-label="Appearance"] + div + div + div,
+.header-2F5_LB:hover + [aria-label="Appearance"] + div + div + div + div,
+.header-2F5_LB + [aria-label="Appearance"]:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="Appearance"] + div:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="Appearance"] + div + div:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="Appearance"] + div + div + div:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="Appearance"]+ div + div + div + div:is(:hover, [aria-selected="true"])
+{
+    transition: max-height 0.5s, padding 0.5s, margin-bottom 0.5s;
+    margin-bottom: 2px;
+    overflow: visible;
+    max-height: 32px;
+    padding: 6px 10px;
+}
+
+/* Activity Settings */
+.header-2F5_LB + [aria-label="Nitro"],
+.header-2F5_LB + [aria-label="Nitro"] + div,
+.header-2F5_LB + [aria-label="Nitro"] + div + div,
+.header-2F5_LB + [aria-label="Nitro"] + div + div + div,
+.header-2F5_LB + [aria-label="Nitro"] + div + div + div + div {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: max-height 0.5s 2s, padding 0.5s 2s, margin-bottom 0.5s 2s;
+    margin-bottom: 0;
+    
+}
+.header-2F5_LB:hover + [aria-label="Nitro"],
+.header-2F5_LB:hover + [aria-label="Nitro"] + div,
+.header-2F5_LB:hover + [aria-label="Nitro"] + div + div,
+.header-2F5_LB:hover + [aria-label="Nitro"] + div + div + div,
+.header-2F5_LB:hover + [aria-label="Nitro"] + div + div + div + div,
+.header-2F5_LB + [aria-label="Nitro"]:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="Nitro"] + div:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="Nitro"] + div + div:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="Nitro"] + div + div + div:is(:hover, [aria-selected="true"]),
+.header-2F5_LB + [aria-label="Nitro"]+ div + div + div + div:is(:hover, [aria-selected="true"])
+{
+    transition: max-height 0.5s, padding 0.5s, margin-bottom 0.5s;
+    margin-bottom: 2px;
+    overflow: visible;
+    max-height: 32px;
+    padding: 6px 10px;
+}
