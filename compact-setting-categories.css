@@ -1,9 +1,10 @@
 /*
 * Modified version of: https://discord.com/channels/1015060230222131221/1028106818368589824/1110091028960124999
+*
+* Authors: AkiraSimplex#5199, Hecker#5573
 */
 
 /* Collapse setting categories */
-
 /* User Settings */
 .header-2F5_LB + [aria-label="My Account"],
 .header-2F5_LB + [aria-label="My Account"] + div,
@@ -15,9 +16,9 @@
     max-height: 0;
     padding: 0;
     overflow: hidden;
-    transition: max-height 0.5s 2s, padding 0.5s 2s, margin-bottom 0.5s 2s;
+    transition: max-height 0.5s 1s, padding 0.5s 1s, margin-bottom 0.5s 1s, opacity 0.5s 1s;
     margin-bottom: 0;
-    
+    opacity: 0;
 }
 .header-2F5_LB:hover + [aria-label="My Account"],
 .header-2F5_LB:hover + [aria-label="My Account"] + div,
@@ -30,11 +31,12 @@
 .header-2F5_LB + [aria-label="My Account"] + div + div + div:is(:hover, [aria-selected="true"]),
 .header-2F5_LB + [aria-label="My Account"]+ div + div + div + div:is(:hover, [aria-selected="true"])
 {
-    transition: max-height 0.5s, padding 0.5s, margin-bottom 0.5s;
+    transition: max-height 0.5s, padding 0.5s, margin-bottom 0.5s, opacity 0.5s;
     margin-bottom: 2px;
     overflow: visible;
     max-height: 32px;
     padding: 6px 10px;
+    opacity: 1;
 }
 
 /* Billing Settings */
@@ -46,9 +48,9 @@
     max-height: 0;
     padding: 0;
     overflow: hidden;
-    transition: max-height 0.5s 2s, padding 0.5s 2s, margin-bottom 0.5s 2s;
+    transition: max-height 0.5s 1s, padding 0.5s 1s, margin-bottom 0.5s 1s, opacity 0.5s 1s;
     margin-bottom: 0;
-    
+    opacity: 0;
 }
 .header-2F5_LB:hover + [aria-label="Nitro"],
 .header-2F5_LB:hover + [aria-label="Nitro"] + div,
@@ -61,11 +63,12 @@
 .header-2F5_LB + [aria-label="Nitro"] + div + div + div:is(:hover, [aria-selected="true"]),
 .header-2F5_LB + [aria-label="Nitro"]+ div + div + div + div:is(:hover, [aria-selected="true"])
 {
-    transition: max-height 0.5s, padding 0.5s, margin-bottom 0.5s;
+    transition: max-height 0.5s, padding 0.5s, margin-bottom 0.5s, opacity 0.5s;
     margin-bottom: 2px;
     overflow: visible;
     max-height: 32px;
     padding: 6px 10px;
+    opacity: 1;
 }
 
 /* App settings */
@@ -83,9 +86,9 @@
     max-height: 0;
     padding: 0;
     overflow: hidden;
-    transition: max-height 0.5s 2s, padding 0.5s 2s, margin-bottom 0.5s 2s;
+    transition: max-height 0.5s 1s, padding 0.5s 1s, margin-bottom 0.5s 1s, opacity 0.5s 1s;
     margin-bottom: 0;
-    
+    opacity: 0;
 }
 .header-2F5_LB:hover + [aria-label="Appearance"],
 .header-2F5_LB:hover + [aria-label="Appearance"] + div,
@@ -98,11 +101,12 @@
 .header-2F5_LB + [aria-label="Appearance"] + div + div + div:is(:hover, [aria-selected="true"]),
 .header-2F5_LB + [aria-label="Appearance"]+ div + div + div + div:is(:hover, [aria-selected="true"])
 {
-    transition: max-height 0.5s, padding 0.5s, margin-bottom 0.5s;
+    transition: max-height 0.5s, padding 0.5s, margin-bottom 0.5s, opacity 0.5s;
     margin-bottom: 2px;
     overflow: visible;
     max-height: 32px;
     padding: 6px 10px;
+    opacity: 1;
 }
 
 /* Activity Settings */
@@ -114,9 +118,9 @@
     max-height: 0;
     padding: 0;
     overflow: hidden;
-    transition: max-height 0.5s 2s, padding 0.5s 2s, margin-bottom 0.5s 2s;
+    transition: max-height 0.5s 1s, padding 0.5s 1s, margin-bottom 0.5s 1s, opacity 0.5s 1s;
     margin-bottom: 0;
-    
+    opacity: 0;
 }
 .header-2F5_LB:hover + [aria-label="Nitro"],
 .header-2F5_LB:hover + [aria-label="Nitro"] + div,
@@ -129,9 +133,10 @@
 .header-2F5_LB + [aria-label="Nitro"] + div + div + div:is(:hover, [aria-selected="true"]),
 .header-2F5_LB + [aria-label="Nitro"]+ div + div + div + div:is(:hover, [aria-selected="true"])
 {
-    transition: max-height 0.5s, padding 0.5s, margin-bottom 0.5s;
+    transition: max-height 0.5s, padding 0.5s, margin-bottom 0.5s, opacity 0.5s;
     margin-bottom: 2px;
     overflow: visible;
     max-height: 32px;
     padding: 6px 10px;
+    opacity: 1;
 }
